@@ -16,30 +16,50 @@
 </head>
 <body>
     <!-- ===== HEADER ===== -->
-    <header class="l-header">  
+    <header class="l-header">
         <nav class="nav bd-grid">
             <div>
                 <a href="#" class="nav__logo">Coffee</a>
             </div>
-
+            
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
             </div>
 
             <div class="nav__menu" id="nav-menu">
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x'></i>
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
                 </div>
-            
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>  
         </nav>
     </header>
+    <main class="l-main">
+        <!-- ===== HOME ===== -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="img/img1.png" alt="">
+                    <img src="img/img2.png" alt="">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Coffee <br> Drink 3D</h1>
+                    <p class="home__description">Let's help discover the best coffee drink <br> of the week.</p>
+                    <a href="#" class="home__button">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- ===== GSAP ===== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
